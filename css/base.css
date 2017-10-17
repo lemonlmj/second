@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+/*reset*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #000;
+	background: #FFF;
+
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+	blr: expression(this.onFocus=this.blur());
+}
+
+img {
+	border: none;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+	zoom: 1
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+
+/*top*/
+#top{
+	background: url(../img/top.png) no-repeat;
+	height: 54px;
+	width: 54px;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	display: none;
+	z-index: 999;
+}
+

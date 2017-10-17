@@ -1,0 +1,740 @@
+/*************************index-nav*******************/
+.row {
+	margin: 0;
+}
+
+.logo1 {
+	display: none;
+}
+
+.navBg {
+	background: rgba(255, 255, 255, 0.6);
+	height: 110px;
+}
+
+.navUl {
+	line-height: 110px;
+	float: right;
+}
+
+.navUl li a {
+	display: inline-block;
+	font-size: 20px;
+	color: #313132;
+	padding: 0 30px;
+}
+.navUl li a:hover{
+	color: #398aff;
+}
+.navUl li.active a {
+	color: #398aff;
+}
+
+.navbar-toggle {
+	padding: 6px 6px;
+	margin-top: 12px;
+	border: 1px solid #398aff;
+}
+
+/*********************index-about**************/
+
+.title {
+	font-size: 28px;
+	margin-top: 40px;
+}
+
+.title span {
+	display: block;
+	font-size: 24px;
+	margin: 10px 0 25px;
+}
+
+.tab li {
+	font-size: 22px;
+}
+
+.tab li a {
+	border-bottom: 2px solid #fff;
+	padding: 16px 30px;
+	display: inline-block;
+	color: #7a7b7b;
+}
+
+.tab li a.sc {
+	color: #01a7f9;
+	border-bottom: 2px solid #01a7f9;
+}
+
+.or {
+	display: none;
+}
+
+.tabIntro {
+	margin-bottom: 50px;
+}
+
+.tabIntro p {
+	margin-top: 10px;
+	margin-bottom: 55px;
+	text-indent: 2em;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.tabIntro h3 {
+	font-size: 18px;
+}
+
+.bigTeach {
+	border: 1px solid #e2e2e2;
+	margin-top: 18px;
+}
+
+.teacher {
+	color: #60759d;
+	line-height: 32px;
+}
+
+.teachImg {
+	margin-top: 25px;
+}
+
+
+/******************index-service***********************/
+.service{
+	background: #f1f1f1;
+	padding: 20px 0;
+}
+.boxB {
+	background: #d0cfcf;
+	padding: 15px 0;
+	border-bottom: 2px solid #fff;
+	text-align: center;
+}
+
+.boxB h3 {
+	color: #fff;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.blue {
+	background: #3992d2;
+}
+
+.detailedB {
+	padding: 20px 0;
+	text-align: center;
+	line-height: 24px;
+}
+
+.serviceB {
+	display: none;
+}
+
+/***************index-curriculumSystem***************/
+
+.curriculumSystem {
+	margin-bottom: 100px;
+}
+
+.curriculumSystem .row {
+	text-align: center;
+}
+
+.curriculumSystemMid {
+	padding: 32px 0 0;
+}
+
+.curriculumSystemTit {
+	height: 90px;
+	margin: 26px 0;
+}
+
+.curriculumSystemTit ul {
+	margin-bottom: 0;
+}
+
+.curriculumSystemTit ul li {
+	font-size: 14px;
+	color: #292a2a;
+	line-height: 30px;
+}
+
+.curriculumSystemBtn a {
+	background-color: #3992d2;
+	padding: 12px 24px;
+	font-size: 14px;
+	color: #fff;
+}
+/*****************index-worksOfExcellence*******************/
+
+.worksOfExcellence {
+	background-color: #f1f1f1;
+	padding: 30px 0 60px;
+}
+
+.worksOfExcellence img {
+	margin: 15px 0
+}
+
+.worksOfExcellenceBtn {
+	margin-top: 50px;
+}
+
+.worksOfExcellenceBtn a {
+	background-color: #49cbcd;
+	font-size: 18px;
+	color: #fff;
+	padding: 20px 80px;
+	border-radius: 8px;
+}
+/***********************indxt-student*************/
+
+.StuInfor-border img {
+	width: 100%;
+}
+
+.StuInfor-border {
+	border: 3px solid #01a7f9;
+	padding: 20px;
+	position: relative;
+	border-radius: 3px;
+	margin-top: 50px;
+	height: 370px;
+}
+
+.btn-text {
+	color: #FFFFFF;
+	font-size: 24px;
+}
+
+.btn-color {
+	background: #01a7f9;
+}
+
+.StuInfor-border1 {
+	border: 3px solid #622d6c;
+}
+
+.btn-color1 {
+	background: #622d6c;
+}
+
+.StuInfor-border .btn:last-child {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	border-radius: 0 0 1px 1px;
+	margin: 0;
+}
+
+.StuInfor-border p {
+	font-size: 17px;
+	line-height: 34px;
+}
+
+.btn-lg {
+	padding: 18px 39px;
+	font-size: 25px;
+}
+
+.btn-default {
+	color: #99cc66;
+	background-color: #fff;
+	border-color: #99cc66;
+}
+.btn-default:hover{
+	background-color: #99cc66;
+	color: #fff;
+}
+.StuInfor-botton .btn {
+	border-radius: 0;
+}
+
+.StuInfor-botton {
+	margin-top: 70px;
+	margin-bottom: 44px;
+}
+
+
+/**********************index-student***************************/
+
+.carousel-control.right {
+	background-image: none;
+	line-height: 440px;
+}
+
+.carousel-control.left {
+	background-image: none;
+	line-height: 440px;
+}
+
+.infor {
+	background: #f1f1f1;
+	padding-bottom: 50px;
+}
+
+.items {
+	margin-top: 100px;
+}
+
+.items p {
+	line-height: 40px;
+	font-size: 18px;
+}
+
+.items strong {
+	margin-left: 30px;
+	color: #868686;
+}
+
+/**********************index-contactUs***************************/
+
+.contactUs {
+	background: url(../img/contactUsBg.jpg) no-repeat;
+	height: 836px;
+}
+
+.contactUsMid {
+	padding: 60px 0 50px;
+}
+
+.contactUsP p:nth-child(1) {
+	font-size: 80px;
+	color: #808080;
+}
+
+.contactUsP p:nth-child(2) {
+	font-size: 58px;
+	color: #808080;
+}
+
+.contactUsP p:nth-child(2) span {
+	font-size: 64px;
+	color: #808080;
+}
+
+.contactUsP p:nth-child(3) {
+	font-size: 40px;
+	color: #808080;
+}
+
+.colude {
+	margin: 70px 0;
+}
+
+.contactUsTiao {
+	margin-top: 50px;
+}
+
+.contactUsMid ul li {
+	font-size: 26px;
+	color: #fff;
+	line-height: 76px;
+}
+
+.contactUsMid ul li img {
+	padding-right: 30px;
+}
+
+
+/*************************index-footer****************************/
+
+.footer {
+	background: #1f1e1e;
+}
+
+.footP {
+	padding: 90px 0;
+	color: #a19e9e;
+}
+
+
+
+/***********************************curse details*******************/
+
+.panel-default> .panel-heading {
+	color: #FFFFFF;
+	background-color: #4877bb;
+	border-color: #ddd;
+}
+
+.panel-heading {
+	font-size: 18px;
+}
+
+.table tr td {
+	border-right: 1px solid #ddd;
+	line-height: 36px;
+}
+
+.table tr td:last-child {
+	border-right: none;
+}
+
+.tableOne tr td .ma {
+	padding-top: 15px;
+}
+
+.tableOne tr td ul li {
+	line-height: 38px;
+}
+
+.table> thead> tr> th,
+.table> tbody> tr> th,
+.table> tfoot> tr> th,
+.table> thead> tr> td,
+.table> tbody> tr> td,
+.table> tfoot> tr> td {
+	padding: 8px;
+	line-height: 30px;
+	vertical-align: middle;
+	width: 310px;
+}
+
+.table tr:first-child {
+	font-size: 18px;
+	color: #000000;
+}
+
+.table tr {
+	font-size: 14px;
+	color: #777777;
+}
+
+
+/********************************************work***********************/
+
+.panel-heading {
+	color: #FFFFFF;
+	background-color: #4877bb;
+	border-color: #ddd;
+}
+
+.panel-heading td {
+	color: #FFFFFF;
+}
+
+@media only screen and (min-width: 414px) and (max-width: 640px) {
+	.contactUsP p:nth-child(1) {
+		font-size: 50px;
+		color: #808080;
+	}
+	.contactUsP p:nth-child(2) {
+		font-size: 28px;
+		color: #808080;
+	}
+	.contactUsP p:nth-child(2) span {
+		font-size: 34px;
+		color: #808080;
+	}
+	.contactUsP p:nth-child(3) {
+		font-size: 22px;
+		color: #808080;
+	}
+	.contactUsMid ul li {
+		font-size: 16px;
+		color: #fff;
+		line-height: 76px;
+	}
+	.contactUs {
+		background: url(../img/contactUsBg.jpg) no-repeat;
+		height: 684px;
+	}
+	.curriculumSystemTit {
+		height: 90px;
+		margin: 16px 0;
+	}
+	.curriculumSystemMid:nth-child(3),
+	.curriculumSystemMid:nth-child(4) {
+		margin-top: 30px;
+	}
+	.curriculumSystem {
+		margin-bottom: 55px;
+	}
+	.worksOfExcellenceBtn {
+		margin-top: 33px;
+	}
+	.worksOfExcellence .row {
+		margin-top: 10px;
+	}
+	.worksOfExcellence {
+		background-color: #f1f1f1;
+		padding: 16px 0 40px;
+	}
+}
+
+@media only screen and (min-width: 375px) and (max-width: 414px) {
+	.contactUsP p:nth-child(1) {
+		font-size: 50px;
+		color: #808080;
+	}
+	.contactUsP p:nth-child(2) {
+		font-size: 28px;
+		color: #808080;
+	}
+	.contactUsP p:nth-child(2) span {
+		font-size: 34px;
+		color: #808080;
+	}
+	.contactUsP p:nth-child(3) {
+		font-size: 20px;
+		color: #808080;
+	}
+	.contactUsMid ul li {
+		font-size: 14px;
+		color: #fff;
+		line-height: 76px;
+	}
+	.contactUs {
+		background: url(../img/contactUsBg.jpg) no-repeat;
+		height: 684px;
+	}
+	.curriculumSystemTit {
+		height: 90px;
+		margin: 16px 0;
+	}
+	.curriculumSystemMid:nth-child(3),
+	.curriculumSystemMid:nth-child(4) {
+		margin-top: 30px;
+	}
+	.curriculumSystem {
+		margin-bottom: 55px;
+	}
+	.worksOfExcellenceBtn {
+		margin-top: 30px;
+	}
+	.worksOfExcellenceBtn a {
+		background-color: #49cbcd;
+		font-size: 18px;
+		color: #fff;
+		padding: 16px 64px;
+		border-radius: 8px;
+	}
+	.worksOfExcellence .row {
+		margin-top: 10px;
+	}
+	.worksOfExcellence {
+		background-color: #f1f1f1;
+		padding: 16px 0 40px;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+	.contactUsP p:nth-child(1) {
+		font-size: 40px;
+		color: #808080;
+	}
+	.contactUsP p:nth-child(2) {
+		font-size: 20px;
+		color: #808080;
+	}
+	.contactUsP p:nth-child(2) span {
+		font-size: 28px;
+		color: #808080;
+	}
+	.contactUsP p:nth-child(3) {
+		font-size: 16px;
+		color: #808080;
+	}
+	.contactUsMid ul li {
+		font-size: 14px;
+		color: #fff;
+		line-height: 65px;
+	}
+	.contactUs {
+		background: url(../img/contactUsBg.jpg) no-repeat;
+		height: 580px;
+	}
+	.curriculumSystemTit {
+		height: 90px;
+		margin: 16px 0;
+	}
+	.curriculumSystemMid:nth-child(3),
+	.curriculumSystemMid:nth-child(4) {
+		margin-top: 30px;
+	}
+	.curriculumSystem {
+		margin-bottom: 55px;
+	}
+	.worksOfExcellenceBtn {
+		margin-top: 28px;
+	}
+	.worksOfExcellenceBtn a {
+		background-color: #49cbcd;
+		font-size: 18px;
+		color: #fff;
+		padding: 12px 56px;
+		border-radius: 8px;
+	}
+	.worksOfExcellence .row {
+		margin-top: 10px;
+	}
+	.worksOfExcellence {
+		background-color: #f1f1f1;
+		padding: 16px 0 40px;
+	}
+	.items p {
+		line-height: 21px;
+		font-size: 12px;
+	}
+	.items strong {
+		margin-left: 8px;
+		color: #868686;
+	}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.card-area .card-item .card .card-title h2 {
+		font-size: 18px;
+	}
+	.bigTeach {
+		text-align: center;
+	}
+	.title {
+		font-size: 28px;
+		margin-top: 40px;
+	}
+	.StuInfor-border p {
+		font-size: 17px;
+		line-height: 24px;
+	}
+	.navUl li a {
+		padding: 0 8px;
+	}
+}
+
+@media only screen and (min-width: 767px) {
+	.navbar-brand> img.logo {
+		display: block;
+	}
+	.navbar-brand> img.logo1 {
+		display: none;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.navUl li a {
+		padding: 0 24px;
+	}
+}
+
+@media only screen and (min-width: 375px) and (max-width: 640px) {
+	.items p {
+		line-height: 21px;
+		font-size: 12px;
+	}
+	.items strong {
+		margin-left: 6px;
+	}
+}
+@media only screen and (max-width:414px) and (max-width:768px) {
+	.colude {
+		margin: 40px 0;
+	}
+	.navUl li a {
+		padding: 0 8px;
+	}
+	.navbar-header {
+		height: 100px;
+	}
+	.logo1 {
+		display: block;
+	}
+	.navbar-brand> img.logo {
+		display: none;
+	}
+	.navbar-brand {
+		padding: 6px 15px;
+	}
+	.navBg {
+		height: 55px;
+	}
+	.navbar-toggle {
+		padding: 6px 6px;
+		margin-top: 12px;
+	}
+}
+
+@media only screen and (max-width:414px) {
+	.colude {
+		margin: 20px 0;
+	}
+	.contactUsMid ul li img {
+		padding-right: 17px;
+		width: 50px;
+	}
+	.curriculumSystemImg img {
+		width: 125px;
+	}
+	.navUl {
+		background: rgba(255, 255, 255, 0.9);
+		float: none;
+		text-align: center;
+		line-height: 48px;
+	}
+	.navbar-header {
+		height: 50px;
+	}
+	.logo1 {
+		display: block;
+	}
+	.navbar-brand> img.logo {
+		display: none;
+	}
+	.navbar-brand {
+		padding: 6px 15px;
+	}
+	.navBg {
+		height: 55px;
+	}
+	.navbar-toggle {
+		padding: 6px 6px;
+		margin-top: 12px;
+	}
+	.contactUsMid ul li {
+		line-height: 46px;
+	}
+	.contactUs {
+		height: 486px;
+	}
+	.contactUsP p:nth-child(2) {
+		font-size: 24px;
+	}
+	.title {
+		font-size: 28px;
+		margin-top: 30px;
+	}
+	.title span {
+		display: block;
+		font-size: 22px;
+		margin: 20px 0 0px;
+	}
+	.navbar-nav {
+		margin: 3px -15px;
+	}
+	.navbar-toggle .icon-bar {
+		width: 23px;
+		height: 18px;
+	}
+	.navbar-toggle {
+		margin-bottom: 0;
+	}
+}
+
+
+@media only screen and (max-width:767px) {
+	.serviceA {
+		display: none;
+	}
+	.serviceB {
+		display: block;
+		font-size: 14px;
+	}
+	.serviceB .boxB h2 {
+		font-size: 18px;
+	}
+}
+
